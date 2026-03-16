@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #1e40af;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111827;
+      color: white;
+      margin-top: 40px;
+    }
+
+    button {
+      padding: 10px 16px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My First Website 🚀</h1>
+  <p>Built with HTML, CSS, and JavaScript</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h2>Welcome</h2>
+    <p>This is a simple website example. You can edit this code to build your own website.</p>
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <div class="card" id="about">
+    <h2>About</h2>
+    <p>This website was created as a beginner example. You can add more sections, images, or features.</p>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Email: example@email.com</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 My Website</p>
+</footer>
+
+<script>
+function showMessage() {
+  alert("Thanks for clicking the button! 🎉");
+}
+</script>
+
+</body>
+</html>
